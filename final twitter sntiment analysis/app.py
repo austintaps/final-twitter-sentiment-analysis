@@ -12,10 +12,10 @@ import seaborn as sns
 
 
 
-consumerKey = #confidential
-consumerSecret = #confidential
-accessToken = #confidential
-accessTokenSecret = #confidential
+consumerKey = "ScaQhkMq0zBtgV8RVIY7rBGvE"
+consumerSecret = "dmfNqq2BJwRzvnwxc80ARLf7EkhKkgHmEsz7PT0ixfEUyfWPrx"
+accessToken ="1088432068403572738-VVBGxQ44GO6Cnpo8hkUUuJJ66yRT0H"
+accessTokenSecret ="1088432068403572738-VVBGxQ44GO6Cnpo8hkUUuJJ66yRT0H"
 
 
 #Create the authentication object
@@ -55,7 +55,7 @@ api = tweepy.API(authenticate, wait_on_rate_limit = True)
 def app():
 
 
-	st.title("Tweet Analyzer 🔥")
+	st.title("Tweet sentiment Analyzer")
 
 
 	activities=["Tweet Analyzer","Generate Twitter Data"]
